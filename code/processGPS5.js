@@ -1,4 +1,4 @@
-const egm96 = require('egm96');
+const egm96 = () => { throw new Error('unavailable'); }
 
 //Adapts WGS84 ellipsoid heights in GPS data to EGM96 geoid (closer to mean sea level) and filters out bad gps data
 module.exports = function(
